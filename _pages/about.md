@@ -15,7 +15,7 @@ redirect_from:
 <span class='anchor' id='-xl'></span>
 
 # 🎓 学历
-- *2025.09 - 至今*, [山东大学](https://www.sdu.edu.cn/) 硕士，人工智能学院, 计算机科学与技术专业, 山东济南
+- *2025.09 - 至今*, [山东大学](https://www.sdu.edu.cn/) 推免硕士，人工智能学院, 计算机科学与技术专业, 山东济南
 - *2021.09 - 2025.06*, [中国矿业大学](https://cumt.edu.cn/) 本科，信息与控制工程学院, 人工智能专业, 江苏徐州
 
 <span class='anchor' id='-lwzl'></span>
