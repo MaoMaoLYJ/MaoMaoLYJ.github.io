@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "李源浚"
-description              : "山东大学人工智能学院硕士研究生"
+description              : #"山东大学人工智能学院硕士研究生"
 repository               : "MaoMaoLYJ/MaoMaoLYJ.github.io"  # 替换为你的GitHub仓库名称
 google_scholar_stats_use_cdn : false
 
@@ -23,7 +23,7 @@ baidu_site_verification  :  # 如果你有百度站长平台的验证代码，�
 author:
   name             : "李源浚"
   avatar           : "images/me.jpg"  # 替换为你的个人照片路径
-  bio              : "山东大学人工智能学院硕士研究生"
+  bio              : "山东大学人工智能学院硕士"
   location         : "山东济南"
   employer         : "山东大学"
   pubmed           : 
