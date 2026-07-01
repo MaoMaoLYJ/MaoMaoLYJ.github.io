@@ -25,29 +25,29 @@ I am Yuanjun Li, a master's student in Computer Science and Technology at the Sc
 # 📝 Publications and Patents
 
 ### Publications
+- **Temporal Skill Reuse for Efficient Exploration in Multi-Agent Reinforcement Learning.**<br>
+  *AAAI 2026, under review*, Lead Contributor<br>
+  **Abstract:** To improve inefficient exploration and long-horizon decision-making in reinforcement learning, this work proposes Temporal Skill Reuse. The method mines high-value temporal segments from historical trajectories as macro-action skills and reuses them during training through state matching, guiding policies toward high-reward behavior patterns. Experiments on multi-agent SMAC and single-agent Atari environments show improved exploration efficiency, faster convergence, and stronger performance.
+
+- **QLLM: Do We Really Need a Mixing Network for Credit Assignment in Multi-Agent Reinforcement Learning.**<br>
+  *AAAI 2026, under review*, First Author, 2026.03<br>
+  **Abstract:** To reduce the training burden and limited interpretability of traditional mixing networks in multi-agent reinforcement learning, this work proposes QLLM. It uses an encoder-evaluator LLM architecture to generate nonlinear, training-free credit assignment functions (TFCAF) in a zero-shot manner, directly replacing the credit assignment network in value decomposition algorithms. Experiments on SMAC and GRF show that QLLM reduces learnable parameters, accelerates convergence, improves performance, and provides strong algorithmic compatibility and semantic interpretability.<br>
+  [Paper](https://arxiv.org/abs/2504.12961)
+
 - **QSIM: Mitigating Overestimation in Multi-Agent Reinforcement Learning via Action Similarity Weighted Q-Learning.**<br>
   *2026 International Conference on Automated Planning and Scheduling (ICAPS, CCF-B CORE A\*)*, First Author, 2025.12<br>
   **Abstract:** To address Q-value overestimation in multi-agent reinforcement learning, this work proposes QSIM. It constructs a near-greedy joint action space and introduces an action-similarity metric to rebuild the TD target through similarity-weighted aggregation, replacing the max operator in the conventional Bellman optimality equation. Experiments on SMAC, MPE, and other benchmarks show that QSIM is broadly compatible with value decomposition methods, effectively mitigates overestimation, and improves convergence speed and performance.<br>
   [Paper](https://arxiv.org/abs/2602.22786)
-
-- **QLLM: Do We Really Need a Mixing Network for Credit Assignment in Multi-Agent Reinforcement Learning.**<br>
-  *2026 European Conference on Machine Learning (ECML, CCF-B CORE A), under review*, First Author, 2026.03<br>
-  **Abstract:** To reduce the training burden and limited interpretability of traditional mixing networks in multi-agent reinforcement learning, this work proposes QLLM. It uses an encoder-evaluator LLM architecture to generate nonlinear, training-free credit assignment functions (TFCAF) in a zero-shot manner, directly replacing the credit assignment network in value decomposition algorithms. Experiments on SMAC and GRF show that QLLM reduces learnable parameters, accelerates convergence, improves performance, and provides strong algorithmic compatibility and semantic interpretability.<br>
-  [Paper](https://arxiv.org/abs/2504.12961)
-
-- **Identification of Nonlinear Multi-Input Multi-Output Systems Based on Maximum Likelihood Principle.**<br>
-  *IEEE 2023 China Automation Congress (CAC, CAA-A)*, Student First Author, 2023.12<br>
-  **Abstract:** This paper studies block-structured modeling for nonlinear-input MIMO industrial systems and proposes a maximum-likelihood parameter identification algorithm with an adaptive forgetting factor. The method decouples nonlinear static parameters and dynamic parameters to support system modeling.<br>
-  [Paper](https://ieeexplore.ieee.org/document/10450725)
 
 - **LSTM-GAT networks based on ResNet structure for prediction of complex multivariable systems.**<br>
   *IEEE 36th Chinese Control and Decision Conference (CCDC)*, 2024.03<br>
   **Abstract:** This work addresses prediction for complex multivariable systems by combining LSTM temporal modeling, GAT-based variable-relation modeling, and a ResNet residual structure. The resulting deep network improves representation ability and stability for multivariable time-series prediction.<br>
   [Paper](https://ieeexplore.ieee.org/document/10587396)
 
-- **Temporal Skill Reuse for Efficient Exploration in Multi-Agent Reinforcement Learning.**<br>
-  *Ongoing work*, Lead Contributor<br>
-  **Abstract:** To improve inefficient exploration and long-horizon decision-making in reinforcement learning, this work proposes Temporal Skill Reuse. The method mines high-value temporal segments from historical trajectories as macro-action skills and reuses them during training through state matching, guiding policies toward high-reward behavior patterns. Experiments on multi-agent SMAC and single-agent Atari environments show improved exploration efficiency, faster convergence, and stronger performance.
+- **Identification of Nonlinear Multi-Input Multi-Output Systems Based on Maximum Likelihood Principle.**<br>
+  *IEEE 2023 China Automation Congress (CAC, CAA-A)*, Student First Author, 2023.12<br>
+  **Abstract:** This paper studies block-structured modeling for nonlinear-input MIMO industrial systems and proposes a maximum-likelihood parameter identification algorithm with an adaptive forgetting factor. The method decouples nonlinear static parameters and dynamic parameters to support system modeling.<br>
+  [Paper](https://ieeexplore.ieee.org/document/10450725)
 
 ### Patents
 - **Cross-coupled iterative learning control method for time-varying uncertain batch processes.**<br>

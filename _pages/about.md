@@ -28,29 +28,29 @@ redirect_from:
 # 📝 论文专利
 
 ### 论文
+- **Temporal Skill Reuse for Efficient Exploration in Multi-Agent Reinforcement Learning.**<br>
+  *AAAI 2026 在投*, 主要负责人<br>
+  **摘要：** 针对强化学习中的低效探索与长时序决策问题，本文提出 Temporal Skill Reuse 框架。该方法从历史轨迹中挖掘高价值时序片段作为宏动作技能，并基于状态匹配在训练过程中进行复用，以引导策略向高回报行为模式学习。在多智能体环境 SMAC 与单智能体环境 Atari 上的实验表明，该方法可提升探索效率、加速收敛并改善性能。
+
+- **QLLM: Do We Really Need a Mixing Network for Credit Assignment in Multi-Agent Reinforcement Learning.**<br>
+  *AAAI 2026 在投*, 第一作者, 2026.03<br>
+  **摘要：** 针对多智能体强化学习中传统混合网络需额外训练且可解释性不足的问题，本文提出 QLLM 框架。该框架采用“编码器-评估器”LLM 架构，零样本生成非线性、免训练的信用分配函数（TFCAF），直接替代传统值分解算法中的信用分配网络。SMAC、GRF 等复杂环境实验表明，QLLM 可显著减少可学习参数、加速收敛并提升算法性能，同时具备良好的算法兼容性与语义可解释性。<br>
+  [论文链接](https://arxiv.org/abs/2504.12961)
+
 - **QSIM: Mitigating Overestimation in Multi-Agent Reinforcement Learning via Action Similarity Weighted Q-Learning.**<br>
   *2026 International Conference on Automated Planning and Scheduling (ICAPS, CCF-B CORE A\*)*, 第一作者, 2025.12<br>
   **摘要：** 针对多智能体强化学习中的 Q 值高估问题，本文提出 QSIM 框架。该框架构建“近贪婪联合动作空间”，并引入动作相似度度量，通过相似度加权聚合重构 TD Target，以替代传统贝尔曼最优方程中的 max 算子，从而抑制高估误差。SMAC、MPE 等基准实验表明，QSIM 具备较强通用性，可无缝结合多种值分解算法，在有效缓解 Q 值高估的同时显著提升算法收敛速度与性能。<br>
   [论文链接](https://arxiv.org/abs/2602.22786)
-
-- **QLLM: Do We Really Need a Mixing Network for Credit Assignment in Multi-Agent Reinforcement Learning.**<br>
-  *2026 European Conference on Machine Learning (ECML, CCF-B CORE A) 在投*, 第一作者, 2026.03<br>
-  **摘要：** 针对多智能体强化学习中传统混合网络需额外训练且可解释性不足的问题，本文提出 QLLM 框架。该框架采用“编码器-评估器”LLM 架构，零样本生成非线性、免训练的信用分配函数（TFCAF），直接替代传统值分解算法中的信用分配网络。SMAC、GRF 等复杂环境实验表明，QLLM 可显著减少可学习参数、加速收敛并提升算法性能，同时具备良好的算法兼容性与语义可解释性。<br>
-  [论文链接](https://arxiv.org/abs/2504.12961)
-
-- **Identification of Nonlinear Multi-Input Multi-Output Systems Based on Maximum Likelihood Principle.**<br>
-  *IEEE 2023 China Automation Congress (CAC, CAA-A)*, 学生一作, 2023.12<br>
-  **摘要：** 针对非线性输入的 MIMO 工业系统块结构建模问题，本文提出一种引入自适应遗忘因子的最大似然参数辨识算法，实现了非线性静态与动态参数解耦及系统建模。<br>
-  [论文链接](https://ieeexplore.ieee.org/document/10450725)
 
 - **LSTM-GAT networks based on ResNet structure for prediction of complex multivariable systems.**<br>
   *IEEE 36th Chinese Control and Decision Conference (CCDC)*, 2024.03<br>
   **摘要：** 针对复杂多变量系统预测问题，本文结合 LSTM 的时序建模能力、GAT 的变量关联建模能力与 ResNet 的残差结构，构建面向复杂系统动态预测的深度网络模型，以提升多变量时序预测的表达能力和稳定性。<br>
   [论文链接](https://ieeexplore.ieee.org/document/10587396)
 
-- **Temporal Skill Reuse for Efficient Exploration in Multi-Agent Reinforcement Learning.**<br>
-  *在研论文*, 主要负责人<br>
-  **摘要：** 针对强化学习中的低效探索与长时序决策问题，本文提出 Temporal Skill Reuse 框架。该方法从历史轨迹中挖掘高价值时序片段作为宏动作技能，并基于状态匹配在训练过程中进行复用，以引导策略向高回报行为模式学习。在多智能体环境 SMAC 与单智能体环境 Atari 上的实验表明，该方法可提升探索效率、加速收敛并改善性能。
+- **Identification of Nonlinear Multi-Input Multi-Output Systems Based on Maximum Likelihood Principle.**<br>
+  *IEEE 2023 China Automation Congress (CAC, CAA-A)*, 学生一作, 2023.12<br>
+  **摘要：** 针对非线性输入的 MIMO 工业系统块结构建模问题，本文提出一种引入自适应遗忘因子的最大似然参数辨识算法，实现了非线性静态与动态参数解耦及系统建模。<br>
+  [论文链接](https://ieeexplore.ieee.org/document/10450725)
 
 ### 专利
 - **针对时变不确定性间歇过程的交叉耦合迭代学习控制方法**<br>
