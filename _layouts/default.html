@@ -3,7 +3,7 @@ layout: compress
 ---
 
 <!doctype html>
-<html lang="en" class="no-js">
+<html lang="{{ page.lang | default: 'zh-CN' }}" class="no-js">
   <head>
     {% include head.html %}
     {% include head/custom.html %}
@@ -32,10 +32,13 @@ layout: compress
 <div class="footer_site">
 <hr/>
 <div class="footer_copyright">
-  © 2025 山大 · 李源浚 | 个人主页
-  <a class="page_a"  href="https://github.com/RayeRen/acad-homepage.github.io">
-  acad
-  </a>&nbsp模板
+  {% if page.lang == "en" %}
+    © 2025 SDU · Yuanjun Li | Personal Homepage
+    <a class="page_a" href="https://github.com/RayeRen/acad-homepage.github.io">acad</a>&nbsp;template
+  {% else %}
+    © 2025 山大 · 李源浚 | 个人主页
+    <a class="page_a" href="https://github.com/RayeRen/acad-homepage.github.io">acad</a>&nbsp;模板
+  {% endif %}
 </div>
 </div>
   </body>
