@@ -105,7 +105,7 @@ img.author__avatar {
   aspect-ratio: 1 / 1;
   border-radius: 50% !important;
   object-fit: cover;
-  object-position: center center;
+  object-position: center top;
 
   @include breakpoint($large) {
     width: 150px !important;
