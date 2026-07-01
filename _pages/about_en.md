@@ -26,7 +26,7 @@ I am Yuanjun Li, a master's student in Computer Science and Technology at the Sc
 
 ### Publications
 - **Temporal Skill Reuse for Efficient Exploration in Multi-Agent Reinforcement Learning.**<br>
-  *AAAI 2026, under review*, Lead Contributor<br>
+  *AAAI 2026, under review*, Lead Contributor, 2026.06<br>
   **Abstract:** To improve inefficient exploration and long-horizon decision-making in reinforcement learning, this work proposes Temporal Skill Reuse. The method mines high-value temporal segments from historical trajectories as macro-action skills and reuses them during training through state matching, guiding policies toward high-reward behavior patterns. Experiments on multi-agent SMAC and single-agent Atari environments show improved exploration efficiency, faster convergence, and stronger performance.
 
 - **QLLM: Do We Really Need a Mixing Network for Credit Assignment in Multi-Agent Reinforcement Learning.**<br>
