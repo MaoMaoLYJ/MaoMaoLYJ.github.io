@@ -16,8 +16,8 @@ I am Yuanjun Li, a master's student in Computer Science and Technology at the Sc
 <span class='anchor' id='education'></span>
 
 # 🎓 Education
-- *2025.09 - 2028.06*, [Shandong University](https://www.sdu.edu.cn/), M.S. student by recommendation, School of Artificial Intelligence, Computer Science and Technology, Jinan, Shandong
-- *2021.09 - 2025.06*, [China University of Mining and Technology](https://cumt.edu.cn/), B.E., School of Information and Control Engineering, Artificial Intelligence, Xuzhou, Jiangsu
+- *2025.09 - 2028.06*, <img class="edu-logo" src="{{ '/images/sdu-logo.svg' | relative_url }}" alt="Shandong University logo"> [Shandong University](https://www.sdu.edu.cn/), M.S. student by recommendation, School of Artificial Intelligence, Computer Science and Technology, Jinan, Shandong
+- *2021.09 - 2025.06*, <img class="edu-logo" src="{{ '/images/cumt-logo.png' | relative_url }}" alt="China University of Mining and Technology logo"> [China University of Mining and Technology](https://cumt.edu.cn/), B.E., School of Information and Control Engineering, Artificial Intelligence, Xuzhou, Jiangsu
   - GPA: 4.21/5.00; weighted average: 89.37; ranking: 5/106 (top 4.72%); CET-6
 
 <span class='anchor' id='publications'></span>

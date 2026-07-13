@@ -19,8 +19,8 @@ redirect_from:
 <span class='anchor' id='education'></span>
 
 # 🎓 学历
-- *2025.09 - 2028.06*, [山东大学](https://www.sdu.edu.cn/) 推免硕士，人工智能学院，计算机科学与技术专业，山东济南
-- *2021.09 - 2025.06*, [中国矿业大学](https://cumt.edu.cn/) 本科，信息与控制工程学院，人工智能专业，江苏徐州
+- *2025.09 - 2028.06*, <img class="edu-logo" src="{{ '/images/sdu-logo.svg' | relative_url }}" alt="山东大学校徽"> [山东大学](https://www.sdu.edu.cn/) 推免硕士，人工智能学院，计算机科学与技术专业，山东济南
+- *2021.09 - 2025.06*, <img class="edu-logo" src="{{ '/images/cumt-logo.png' | relative_url }}" alt="中国矿业大学校徽"> [中国矿业大学](https://cumt.edu.cn/) 本科，信息与控制工程学院，人工智能专业，江苏徐州
   - 加权绩点：4.21/5.00；加权成绩：89.37；综合排名：5/106（4.72%）；英语水平：CET-6
 
 <span class='anchor' id='publications'></span>
