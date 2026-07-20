@@ -29,11 +29,11 @@ redirect_from:
 
 ### 论文
 - **Temporal Skill Reuse for Efficient Exploration in Multi-Agent Reinforcement Learning.**<br>
-  *AAAI 2026 在投*, 主要负责人, 2026.06<br>
+  *AAAI 2027 在投*, 共同一作, 2026.06<br>
   **摘要：** 针对强化学习中的低效探索与长时序决策问题，本文提出 Temporal Skill Reuse 框架。该方法从历史轨迹中挖掘高价值时序片段作为宏动作技能，并基于状态匹配在训练过程中进行复用，以引导策略向高回报行为模式学习。在多智能体环境 SMAC 与单智能体环境 Atari 上的实验表明，该方法可提升探索效率、加速收敛并改善性能。
 
 - **QLLM: Do We Really Need a Mixing Network for Credit Assignment in Multi-Agent Reinforcement Learning.**<br>
-  *AAAI 2026 在投*, 第一作者, 2026.03<br>
+  *AAAI 2027 在投*, 第一作者, 2026.03<br>
   **摘要：** 针对多智能体强化学习中传统混合网络需额外训练且可解释性不足的问题，本文提出 QLLM 框架。该框架采用“编码器-评估器”LLM 架构，零样本生成非线性、免训练的信用分配函数（TFCAF），直接替代传统值分解算法中的信用分配网络。SMAC、GRF 等复杂环境实验表明，QLLM 可显著减少可学习参数、加速收敛并提升算法性能，同时具备良好的算法兼容性与语义可解释性。<br>
   [论文链接](https://arxiv.org/abs/2504.12961)
 

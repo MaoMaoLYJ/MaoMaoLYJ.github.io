@@ -26,11 +26,11 @@ I am Yuanjun Li, a master's student in Computer Science and Technology at the Sc
 
 ### Publications
 - **Temporal Skill Reuse for Efficient Exploration in Multi-Agent Reinforcement Learning.**<br>
-  *AAAI 2026, under review*, Lead Contributor, 2026.06<br>
+  *AAAI 2027, under review*, Co-first Author, 2026.06<br>
   **Abstract:** To improve inefficient exploration and long-horizon decision-making in reinforcement learning, this work proposes Temporal Skill Reuse. The method mines high-value temporal segments from historical trajectories as macro-action skills and reuses them during training through state matching, guiding policies toward high-reward behavior patterns. Experiments on multi-agent SMAC and single-agent Atari environments show improved exploration efficiency, faster convergence, and stronger performance.
 
 - **QLLM: Do We Really Need a Mixing Network for Credit Assignment in Multi-Agent Reinforcement Learning.**<br>
-  *AAAI 2026, under review*, First Author, 2026.03<br>
+  *AAAI 2027, under review*, First Author, 2026.03<br>
   **Abstract:** To reduce the training burden and limited interpretability of traditional mixing networks in multi-agent reinforcement learning, this work proposes QLLM. It uses an encoder-evaluator LLM architecture to generate nonlinear, training-free credit assignment functions (TFCAF) in a zero-shot manner, directly replacing the credit assignment network in value decomposition algorithms. Experiments on SMAC and GRF show that QLLM reduces learnable parameters, accelerates convergence, improves performance, and provides strong algorithmic compatibility and semantic interpretability.<br>
   [Paper](https://arxiv.org/abs/2504.12961)
 
