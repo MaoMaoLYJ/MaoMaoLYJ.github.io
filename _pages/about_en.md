@@ -71,9 +71,14 @@ I am Yuanjun Li, a master's student in Computer Science and Technology at the Sc
 - *2026.04* National Third Prize, Tencent Kaiwu Agent Decision Algorithm Competition
 - *2025.09* First Prize Freshman Scholarship, Shandong University
 - *2025.06* Outstanding Graduate, China University of Mining and Technology
+- *2024.12* University-level Outstanding Student, China University of Mining and Technology (First Prize Scholarship)
 - *2024.07* Second Prize, National Undergraduate Electronic Design Contest
+- *2024.06* Second Prize, Jiangsu May Day Mathematical Modeling Competition
+- *2023.12* University-level Outstanding Student, China University of Mining and Technology (First Prize Scholarship)
+- *2022.12* University-level Outstanding Class Cadre, China University of Mining and Technology (First Prize Scholarship)
 - *2022.11* Bronze Award, University Physics Competition
 - *2022.11* Second Prize, Jiangsu Higher Mathematics Competition for Colleges and Universities
+- *2022.10* Higher Mathematics Learning Star, China University of Mining and Technology (ranked 1/4725 in Higher Mathematics)
 
 <span class='anchor' id='student-service'></span>
 
