@@ -28,12 +28,12 @@ redirect_from:
 # 📝 论文专利
 
 ### 论文
-- **Temporal Skill Reuse for Efficient Exploration in Multi-Agent Reinforcement Learning.**<br>
-  *AAAI 2027 在投*, 共同一作, 2026.06<br>
+- **From Trajectories to Skills: Temporal Skill Reuse for Efficient Exploration in Cooperative MARL**<br>
+  *2027 Association for the Advancement of Artificial Intelligence (AAAI, CCF-A CORE A\*) 在投*, 共同一作（第二）, 2026.06<br>
   **摘要：** 针对强化学习中的低效探索与长时序决策问题，本文提出 Temporal Skill Reuse 框架。该方法从历史轨迹中挖掘高价值时序片段作为宏动作技能，并基于状态匹配在训练过程中进行复用，以引导策略向高回报行为模式学习。在多智能体环境 SMAC 与单智能体环境 Atari 上的实验表明，该方法可提升探索效率、加速收敛并改善性能。
 
 - **QLLM: Do We Really Need a Mixing Network for Credit Assignment in Multi-Agent Reinforcement Learning.**<br>
-  *AAAI 2027 在投*, 第一作者, 2026.03<br>
+  *2027 Association for the Advancement of Artificial Intelligence (AAAI, CCF-A CORE A\*) 在投*, 第一作者, 2026.03<br>
   **摘要：** 针对多智能体强化学习中传统混合网络需额外训练且可解释性不足的问题，本文提出 QLLM 框架。该框架采用“编码器-评估器”LLM 架构，零样本生成非线性、免训练的信用分配函数（TFCAF），直接替代传统值分解算法中的信用分配网络。SMAC、GRF 等复杂环境实验表明，QLLM 可显著减少可学习参数、加速收敛并提升算法性能，同时具备良好的算法兼容性与语义可解释性。<br>
   [论文链接](https://arxiv.org/abs/2504.12961)
 
@@ -60,13 +60,17 @@ redirect_from:
 <span class='anchor' id='projects'></span>
 
 # 💼 项目经历
-- **山东大学科研匹配平台 \| 基于 LLM 与 RAG 架构的高校专家智能匹配系统**<br>
+- **山东大学科研匹配平台 \| 基于 LLM 与 RAG 架构的高校专家智能匹配系统** <img class="project-logo" src="{{ '/images/山东大学图标.jpg' | relative_url }}" alt="山东大学" width="353" height="117"><br>
   *2025.12 - 2026.02*<br>
   爬取并解析高校教师个人主页信息，完成教师科研数据的结构化入库；采用 BGE-M3 模型生成语义 Embedding，结合余弦相似度检索与 Rerank 重排序，实现企业需求与专家画像的精准匹配，并自动生成专家推荐报告与合作建议。
 
-- **山东大学科研助手 \| 基于 OpenClaw 的多智能体科研协作系统**<br>
+- **山东大学科研助手 \| 基于 OpenClaw 的多智能体科研协作系统** <img class="project-logo" src="{{ '/images/山东大学图标.jpg' | relative_url }}" alt="山东大学" width="353" height="117"><br>
   *2026.02 - 2026.05*<br>
   面向企业、科研院与教师等用户构建 Docker 隔离环境；设计多智能体任务通信机制，打通企业需求提交、专家匹配、教师授权确认与结果返回的闭环流程，并结合私有专家库实现候选专家生成、审核与多轮人机协同交互。
+
+- **理想汽车 Multi-Agent 协作平台 \| 基于 Agent 的智能业务协作系统** <img class="project-logo" src="{{ '/images/理想汽车图标.jpg' | relative_url }}" alt="理想汽车" width="319" height="106"><br>
+  *2026.06 - 2026.09*<br>
+  用于连接企业数据、知识库与业务工具，通过多个 Agent 协同完成业务问答、数据分析和自动化任务。主要负责 Agent Harness 的历史上下文管理与长期记忆优化，提升 Agent 在长对话中的信息完整性与稳定性。
 
 <span class='anchor' id='awards'></span>
 

@@ -117,3 +117,12 @@ h1:before, .anchor:before {
     object-fit: cover;
     object-position: left center;
 }
+
+.project-logo {
+    display: inline-block;
+    width: auto;
+    height: 1.35em;
+    margin-left: .35em;
+    vertical-align: middle;
+    object-fit: contain;
+}
