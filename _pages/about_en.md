@@ -57,16 +57,13 @@ I am Yuanjun Li, a master's student in Computer Science and Technology at the Sc
 <span class='anchor' id='projects'></span>
 
 # 💼 Projects
-- **Shandong University Research Matching Platform \| Intelligent University Expert Matching System Based on LLM and RAG** <img class="project-logo" src="{{ '/images/山东大学图标.jpg' | relative_url }}" alt="Shandong University" width="353" height="117"><br>
-  *2025.12 - 2026.02*<br>
+- <span class="project-heading"><span class="project-heading__title"><strong>Shandong University Research Matching Platform | Intelligent University Expert Matching System Based on LLM and RAG</strong> <img class="project-logo" src="{{ '/images/山东大学图标.jpg' | relative_url }}" alt="Shandong University" width="353" height="117"></span><em class="project-heading__date">2025.12 - 2026.02</em></span>
   Crawled and parsed faculty homepage information, structured teacher research data, generated semantic embeddings with BGE-M3, and combined cosine-similarity retrieval with rerank ranking to match enterprise needs with expert profiles and automatically generate expert recommendation reports and collaboration suggestions.
 
-- **Shandong University Research Assistant \| Multi-agent Research Collaboration System Based on OpenClaw** <img class="project-logo" src="{{ '/images/山东大学图标.jpg' | relative_url }}" alt="Shandong University" width="353" height="117"><br>
-  *2026.02 - 2026.05*<br>
+- <span class="project-heading"><span class="project-heading__title"><strong>Shandong University Research Assistant | Multi-agent Research Collaboration System Based on OpenClaw</strong> <img class="project-logo" src="{{ '/images/山东大学图标.jpg' | relative_url }}" alt="Shandong University" width="353" height="117"></span><em class="project-heading__date">2026.02 - 2026.05</em></span>
   Built Docker-isolated environments for enterprises, research institutes, and faculty users; designed multi-agent task communication mechanisms; connected the full workflow from enterprise demand submission, expert matching, faculty authorization, and result delivery; and used a private expert database to support candidate expert generation, review, and multi-round human-agent collaboration.
 
-- **Li Auto Multi-Agent Collaboration Platform \| Agent-based Intelligent Business Collaboration System** <img class="project-logo" src="{{ '/images/理想汽车图标.jpg' | relative_url }}" alt="Li Auto" width="319" height="106"><br>
-  *2026.06 - 2026.09*<br>
+- <span class="project-heading"><span class="project-heading__title"><strong>Li Auto Multi-Agent Collaboration Platform | Agent-based Intelligent Business Collaboration System</strong> <img class="project-logo" src="{{ '/images/理想汽车图标.jpg' | relative_url }}" alt="Li Auto" width="319" height="106"></span><em class="project-heading__date">2026.06 - 2026.09</em></span>
   Connected enterprise data, knowledge bases, and business tools, enabling multiple agents to collaborate on business question answering, data analysis, and automated tasks. Primarily responsible for historical context management and long-term memory optimization in the Agent Harness, improving information completeness and agent stability during long conversations.
 
 <span class='anchor' id='awards'></span>

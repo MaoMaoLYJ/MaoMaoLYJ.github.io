@@ -126,3 +126,27 @@ h1:before, .anchor:before {
     vertical-align: middle;
     object-fit: contain;
 }
+
+.project-heading {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    align-items: baseline;
+    gap: .2em 1em;
+    margin-bottom: .2em;
+}
+
+.project-heading__title {
+    min-width: 0;
+}
+
+.project-heading__date {
+    white-space: nowrap;
+    text-align: right;
+    font-variant-numeric: tabular-nums;
+}
+
+@media (max-width: 600px) {
+    .project-heading {
+        grid-template-columns: minmax(0, 1fr);
+    }
+}
