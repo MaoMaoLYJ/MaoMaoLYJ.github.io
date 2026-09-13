@@ -29,34 +29,34 @@ redirect_from:
 
 ### 论文
 - **ASPECT: Agent-Specific Parameter-Efficient Core Tuning for Multi-Agent LLM Workflows**<br>
-  *2027 International Conference on Learning Representations (ICLR, CCF-A CORE A\*) 在投*, 第一作者, 2026.09<br>
+  *2027 International Conference on Learning Representations (**ICLR**, CCF-A CORE A\*) 在投*, 第一作者, 2026.09<br>
   **摘要：** 针对大语言模型多智能体强化学习中的角色主导和同角色梯度放大问题，本文提出 ASPECT 框架。该框架通过任务校准与奇异值分解构建共享冻结的 LoRA 低秩基，并为各智能体分配独立核心矩阵，实现参数高效的梯度更新隔离。通过数学与代码任务的跨模型、跨工作流实验表明，ASPECT 仅需传统 LoRA 分配方式不足 10% 的可训练参数，即可取得更高的任务准确率。
 
 - **DUPAR: Dual-Path Conversational Retrieval via Speech Retriever with Cross-Turn Evidence Caching**<br>
-  *2027 International Conference on Acoustics, Speech, and Signal Processing (ICASSP, CCF-B CORE B) 在投*, 第一作者, 2026.09<br>
+  *2027 International Conference on Acoustics, Speech, and Signal Processing (**ICASSP**, CCF-B CORE B) 在投*, 第一作者, 2026.09<br>
   **摘要：** 针对传统语音检索中的 ASR 识别错误传播与时延问题，本文提出双路径对话检索框架 DUPAR。该框架通过与文本嵌入对齐的音频编码器直接检索跨轮证据缓存，以音频与转录文本融合的全库检索作为回退，并使用上轮检索结果的邻节点图扩展更新缓存。实验表明，音频编码器可达到接近文本检索的精度，相较 ASR 级联检索实现约 3.75 倍的查询侧加速，并对合成噪声与说话风格变化具有更强的鲁棒性。
 
 - **From Trajectories to Skills: Temporal Skill Reuse for Efficient Exploration in Cooperative MARL**<br>
-  *2027 Association for the Advancement of Artificial Intelligence (AAAI, CCF-A CORE A\*) 在投*, 共同一作（第二）, 2026.06<br>
+  *2027 Association for the Advancement of Artificial Intelligence (**AAAI**, CCF-A CORE A\*) 在投*, 共同一作（第二）, 2026.06<br>
   **摘要：** 针对强化学习中的低效探索与长时序决策问题，本文提出 Temporal Skill Reuse 框架。该方法从历史轨迹中挖掘高价值时序片段作为宏动作技能，并基于状态匹配在训练过程中进行复用，以引导策略向高回报行为模式学习。在多智能体环境 SMAC 与单智能体环境 Atari 上的实验表明，该方法可提升探索效率、加速收敛并改善性能。
 
 - **QLLM: Do We Really Need a Mixing Network for Credit Assignment in Multi-Agent Reinforcement Learning.**<br>
-  *2027 Association for the Advancement of Artificial Intelligence (AAAI, CCF-A CORE A\*) 在投*, 第一作者, 2026.03<br>
+  *2027 Association for the Advancement of Artificial Intelligence (**AAAI**, CCF-A CORE A\*) 在投*, 第一作者, 2026.03<br>
   **摘要：** 针对多智能体强化学习中传统混合网络需额外训练且可解释性不足的问题，本文提出 QLLM 框架。该框架采用“编码器-评估器”LLM 架构，零样本生成非线性、免训练的信用分配函数（TFCAF），直接替代传统值分解算法中的信用分配网络。SMAC、GRF 等复杂环境实验表明，QLLM 可显著减少可学习参数、加速收敛并提升算法性能，同时具备良好的算法兼容性与语义可解释性。<br>
   [论文链接](https://arxiv.org/abs/2504.12961)
 
 - **QSIM: Mitigating Overestimation in Multi-Agent Reinforcement Learning via Action Similarity Weighted Q-Learning.**<br>
-  *2026 International Conference on Automated Planning and Scheduling (ICAPS, CCF-B CORE A\*)*, 第一作者, 2025.12<br>
+  *2026 International Conference on Automated Planning and Scheduling (**ICAPS**, CCF-B CORE A\*)*, 第一作者, 2025.12<br>
   **摘要：** 针对多智能体强化学习中的 Q 值高估问题，本文提出 QSIM 框架。该框架构建“近贪婪联合动作空间”，并引入动作相似度度量，通过相似度加权聚合重构 TD Target，以替代传统贝尔曼最优方程中的 max 算子，从而抑制高估误差。SMAC、MPE 等基准实验表明，QSIM 具备较强通用性，可无缝结合多种值分解算法，在有效缓解 Q 值高估的同时显著提升算法收敛速度与性能。<br>
   [论文链接](https://arxiv.org/abs/2602.22786)
 
 - **LSTM-GAT networks based on ResNet structure for prediction of complex multivariable systems.**<br>
-  *IEEE 36th Chinese Control and Decision Conference (CCDC)*, 2024.03<br>
+  *IEEE 36th Chinese Control and Decision Conference (**CCDC**)*, 2024.03<br>
   **摘要：** 针对复杂多变量系统预测问题，本文结合 LSTM 的时序建模能力、GAT 的变量关联建模能力与 ResNet 的残差结构，构建面向复杂系统动态预测的深度网络模型，以提升多变量时序预测的表达能力和稳定性。<br>
   [论文链接](https://ieeexplore.ieee.org/document/10587396)
 
 - **Identification of Nonlinear Multi-Input Multi-Output Systems Based on Maximum Likelihood Principle.**<br>
-  *IEEE 2023 China Automation Congress (CAC, CAA-A)*, 学生一作, 2023.12<br>
+  *IEEE 2023 China Automation Congress (**CAC**, CAA-A)*, 学生一作, 2023.12<br>
   **摘要：** 针对非线性输入的 MIMO 工业系统块结构建模问题，本文提出一种引入自适应遗忘因子的最大似然参数辨识算法，实现了非线性静态与动态参数解耦及系统建模。<br>
   [论文链接](https://ieeexplore.ieee.org/document/10450725)
 

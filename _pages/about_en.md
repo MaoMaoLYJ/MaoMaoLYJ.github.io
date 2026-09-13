@@ -26,34 +26,34 @@ I am Yuanjun Li, a master's student in Computer Science and Technology at the Sc
 
 ### Publications
 - **ASPECT: Agent-Specific Parameter-Efficient Core Tuning for Multi-Agent LLM Workflows**<br>
-  *2027 International Conference on Learning Representations (ICLR, CCF-A CORE A\*), under review*, First Author, 2026.09<br>
+  *2027 International Conference on Learning Representations (**ICLR**, CCF-A CORE A\*), under review*, First Author, 2026.09<br>
   **Abstract:** To address role dominance and same-role gradient amplification in multi-agent reinforcement learning with large language models, this work proposes ASPECT. It constructs shared, frozen low-rank LoRA bases through task calibration and singular value decomposition, and assigns an independent core matrix to each agent to isolate gradient updates in a parameter-efficient manner. Experiments across models and workflows on mathematics and coding tasks show that ASPECT achieves higher task accuracy with less than 10% of the trainable parameters required by conventional LoRA allocation.
 
 - **DUPAR: Dual-Path Conversational Retrieval via Speech Retriever with Cross-Turn Evidence Caching**<br>
-  *2027 International Conference on Acoustics, Speech, and Signal Processing (ICASSP, CCF-B CORE B), under review*, First Author, 2026.09<br>
+  *2027 International Conference on Acoustics, Speech, and Signal Processing (**ICASSP**, CCF-B CORE B), under review*, First Author, 2026.09<br>
   **Abstract:** To address ASR error propagation and latency in conventional speech retrieval, this work proposes DUPAR, a dual-path conversational retrieval framework. An audio encoder aligned with text embeddings directly retrieves evidence from a cross-turn cache, with full-corpus retrieval combining audio and transcribed text as a fallback. The cache is updated through graph-based expansion to neighboring nodes of the previous turn's retrieval results. Experiments show that the audio encoder achieves retrieval accuracy close to text-based retrieval, provides approximately 3.75 times query-side speedup over an ASR-cascaded retrieval pipeline, and is more robust to synthetic noise and variations in speaking style.
 
 - **From Trajectories to Skills: Temporal Skill Reuse for Efficient Exploration in Cooperative MARL**<br>
-  *2027 Association for the Advancement of Artificial Intelligence (AAAI, CCF-A CORE A\*), under review*, Co-first Author (second-listed), 2026.06<br>
+  *2027 Association for the Advancement of Artificial Intelligence (**AAAI**, CCF-A CORE A\*), under review*, Co-first Author (second-listed), 2026.06<br>
   **Abstract:** To improve inefficient exploration and long-horizon decision-making in reinforcement learning, this work proposes Temporal Skill Reuse. The method mines high-value temporal segments from historical trajectories as macro-action skills and reuses them during training through state matching, guiding policies toward high-reward behavior patterns. Experiments on multi-agent SMAC and single-agent Atari environments show improved exploration efficiency, faster convergence, and stronger performance.
 
 - **QLLM: Do We Really Need a Mixing Network for Credit Assignment in Multi-Agent Reinforcement Learning.**<br>
-  *2027 Association for the Advancement of Artificial Intelligence (AAAI, CCF-A CORE A\*), under review*, First Author, 2026.03<br>
+  *2027 Association for the Advancement of Artificial Intelligence (**AAAI**, CCF-A CORE A\*), under review*, First Author, 2026.03<br>
   **Abstract:** To reduce the training burden and limited interpretability of traditional mixing networks in multi-agent reinforcement learning, this work proposes QLLM. It uses an encoder-evaluator LLM architecture to generate nonlinear, training-free credit assignment functions (TFCAF) in a zero-shot manner, directly replacing the credit assignment network in value decomposition algorithms. Experiments on SMAC and GRF show that QLLM reduces learnable parameters, accelerates convergence, improves performance, and provides strong algorithmic compatibility and semantic interpretability.<br>
   [Paper](https://arxiv.org/abs/2504.12961)
 
 - **QSIM: Mitigating Overestimation in Multi-Agent Reinforcement Learning via Action Similarity Weighted Q-Learning.**<br>
-  *2026 International Conference on Automated Planning and Scheduling (ICAPS, CCF-B CORE A\*)*, First Author, 2025.12<br>
+  *2026 International Conference on Automated Planning and Scheduling (**ICAPS**, CCF-B CORE A\*)*, First Author, 2025.12<br>
   **Abstract:** To address Q-value overestimation in multi-agent reinforcement learning, this work proposes QSIM. It constructs a near-greedy joint action space and introduces an action-similarity metric to rebuild the TD target through similarity-weighted aggregation, replacing the max operator in the conventional Bellman optimality equation. Experiments on SMAC, MPE, and other benchmarks show that QSIM is broadly compatible with value decomposition methods, effectively mitigates overestimation, and improves convergence speed and performance.<br>
   [Paper](https://arxiv.org/abs/2602.22786)
 
 - **LSTM-GAT networks based on ResNet structure for prediction of complex multivariable systems.**<br>
-  *IEEE 36th Chinese Control and Decision Conference (CCDC)*, 2024.03<br>
+  *IEEE 36th Chinese Control and Decision Conference (**CCDC**)*, 2024.03<br>
   **Abstract:** This work addresses prediction for complex multivariable systems by combining LSTM temporal modeling, GAT-based variable-relation modeling, and a ResNet residual structure. The resulting deep network improves representation ability and stability for multivariable time-series prediction.<br>
   [Paper](https://ieeexplore.ieee.org/document/10587396)
 
 - **Identification of Nonlinear Multi-Input Multi-Output Systems Based on Maximum Likelihood Principle.**<br>
-  *IEEE 2023 China Automation Congress (CAC, CAA-A)*, Student First Author, 2023.12<br>
+  *IEEE 2023 China Automation Congress (**CAC**, CAA-A)*, Student First Author, 2023.12<br>
   **Abstract:** This paper studies block-structured modeling for nonlinear-input MIMO industrial systems and proposes a maximum-likelihood parameter identification algorithm with an adaptive forgetting factor. The method decouples nonlinear static parameters and dynamic parameters to support system modeling.<br>
   [Paper](https://ieeexplore.ieee.org/document/10450725)
 
