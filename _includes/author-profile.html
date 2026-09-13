@@ -26,7 +26,12 @@
         <li><a href="{{ author.uri }}"><i class="fas fa-fw fa-link" aria-hidden="true"></i> Website</a></li>
       {% endif %}
       {% if author.email %}
-        <li><a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i> Email</a></li>
+        <li>
+          <details class="author__contact" name="author-contact">
+            <summary><i class="fas fa-fw fa-envelope" aria-hidden="true"></i> Email</summary>
+            <div class="author__contact-panel"><span class="author__email">{{ author.email | escape }}</span></div>
+          </details>
+        </li>
       {% endif %}
       {% if author.keybase %}
         <li><a href="https://keybase.io/{{ author.keybase }}"><i class="fas fa-fw fa-key" aria-hidden="true"></i> Keybase</a></li>
@@ -64,6 +69,14 @@
       {% if author.github %}
         <li><a href="https://github.com/{{ author.github }}"><i class="fab fa-fw fa-github" aria-hidden="true"></i> Github</a></li>
       {% endif %}
+      <li>
+        <details class="author__contact" name="author-contact">
+          <summary><i class="fab fa-fw fa-weixin" aria-hidden="true"></i> 微信 / WeChat</summary>
+          <div class="author__contact-panel">
+            <img class="author__wechat-qr" src="{{ '/images/微信个人二维码.png' | relative_url }}" alt="{% if page.lang == 'en' %}WeChat QR code{% else %}微信个人二维码{% endif %}">
+          </div>
+        </details>
+      </li>
       {% if author.stackoverflow %}
         <li><a href="https://www.stackoverflow.com/users/{{ author.stackoverflow }}"><i class="fab fa-fw fa-stack-overflow" aria-hidden="true"></i> Stackoverflow</a></li>
       {% endif %}
@@ -121,7 +134,10 @@
         <a href="{{ author.uri }}"><i class="fas fa-fw fa-link" aria-hidden="true"></i></a>
       {% endif %}
       {% if author.email %}
-        <a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i></a>
+        <details class="author__contact" name="author-contact">
+          <summary aria-label="Email" title="Email"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i></summary>
+          <div class="author__contact-panel"><span class="author__email">{{ author.email | escape }}</span></div>
+        </details>
       {% endif %}
       {% if author.keybase %}
         <a href="https://keybase.io/{{ author.keybase }}"><i class="fas fa-fw fa-key" aria-hidden="true"></i></a>
@@ -159,6 +175,12 @@
       {% if author.github %}
         <a href="https://github.com/{{ author.github }}"><i class="fab fa-fw fa-github" aria-hidden="true"></i></a>
       {% endif %}
+      <details class="author__contact" name="author-contact">
+        <summary aria-label="微信 / WeChat" title="微信 / WeChat"><i class="fab fa-fw fa-weixin" aria-hidden="true"></i></summary>
+        <div class="author__contact-panel">
+          <img class="author__wechat-qr" src="{{ '/images/微信个人二维码.png' | relative_url }}" alt="{% if page.lang == 'en' %}WeChat QR code{% else %}微信个人二维码{% endif %}">
+        </div>
+      </details>
       {% if author.stackoverflow %}
         <a href="https://www.stackoverflow.com/users/{{ author.stackoverflow }}"><i class="fab fa-fw fa-stack-overflow" aria-hidden="true"></i></a>
       {% endif %}

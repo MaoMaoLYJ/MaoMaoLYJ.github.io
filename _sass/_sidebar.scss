@@ -278,3 +278,72 @@ img.author__avatar {
     display: none;
   }
 }
+
+.author__contact {
+  summary {
+    padding: 2px 5px 2px 0;
+    margin-bottom: 5px;
+    font-size: $type-size-5;
+    list-style: none;
+    cursor: pointer;
+
+    &::-webkit-details-marker {
+      display: none;
+    }
+
+    &:hover {
+      text-decoration: underline;
+    }
+
+    &:focus-visible {
+      outline: 2px solid currentColor;
+      outline-offset: 2px;
+    }
+  }
+}
+
+.author__contact-panel {
+  margin: 4px 0 10px;
+  cursor: auto;
+}
+
+.author__email {
+  display: block;
+  font-size: 12px;
+  line-height: 1.5;
+  white-space: nowrap;
+  user-select: text;
+}
+
+.sidebar img.author__wechat-qr {
+  display: block;
+  width: 100%;
+  max-width: 260px;
+  height: auto;
+  border-radius: 0;
+}
+
+.author__urls_sm .author__contact {
+  display: inline-block;
+  vertical-align: top;
+
+  summary {
+    padding: 0;
+    margin: 0;
+    font-size: inherit;
+  }
+
+  .author__contact-panel {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    z-index: 20;
+    width: 260px;
+    max-width: calc(100vw - 32px);
+    padding: 10px;
+    border: 1px solid $border-color;
+    border-radius: 4px;
+    background: #fff;
+    box-shadow: 0 2px 8px rgba(#000, .15);
+  }
+}
