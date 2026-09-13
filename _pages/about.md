@@ -14,7 +14,7 @@ redirect_from:
 
 **欢迎来到李源浚的主页！**
 
-我叫李源浚，目前是山东大学人工智能学院计算机科学与技术专业硕士研究生，导师是[徐志伟老师](https://xuleek.tech/)。我的研究方向包括多智能体强化学习、自主控制与智能决策、大模型增强的强化学习等。我关注强化学习在复杂协作场景中的高效决策、信用分配与探索问题，并持续参与科研平台和多智能体系统相关项目。
+我叫李源浚，目前是山东大学人工智能学院计算机科学与技术专业硕士研究生，导师是[徐志伟老师](https://xuleek.tech/)。我的研究方向包括多智能体强化学习、大语言模型强化学习后训练、自主控制与智能决策、大模型增强的强化学习等。我关注强化学习在复杂协作场景中的高效决策、信用分配与探索问题，并持续参与科研平台和多智能体系统相关项目。
 
 <span class='anchor' id='education'></span>
 
@@ -30,7 +30,7 @@ redirect_from:
 ### 论文
 - **ASPECT: Agent-Specific Parameter-Efficient Core Tuning for Multi-Agent LLM Workflows**<br>
   *2027 International Conference on Learning Representations (**ICLR**, CCF-A CORE A\*) 在投*, 第一作者, 2026.09<br>
-  **摘要：** 针对大语言模型多智能体强化学习中的角色主导和同角色梯度放大问题，本文提出 ASPECT 框架。该框架通过任务校准与奇异值分解构建共享冻结的 LoRA 低秩基，并为各智能体分配独立核心矩阵，实现参数高效的梯度更新隔离。通过数学与代码任务的跨模型、跨工作流实验表明，ASPECT 仅需传统 LoRA 分配方式不足 10% 的可训练参数，即可取得更高的任务准确率。
+  **摘要：** 针对大语言模型多智能体系统的强化学习后训练中的角色主导和同角色梯度放大问题，本文提出 ASPECT 框架。该框架通过任务校准与奇异值分解构建共享冻结的 LoRA 低秩基，并为各智能体分配独立核心矩阵，实现参数高效的梯度更新隔离。通过数学与代码任务的跨模型、跨工作流实验表明，ASPECT 仅需传统 LoRA 分配方式不足 10% 的可训练参数，即可取得更高的任务准确率。
 
 - **DUPAR: Dual-Path Conversational Retrieval via Speech Retriever with Cross-Turn Evidence Caching**<br>
   *2027 International Conference on Acoustics, Speech, and Signal Processing (**ICASSP**, CCF-B CORE B) 在投*, 第一作者, 2026.09<br>

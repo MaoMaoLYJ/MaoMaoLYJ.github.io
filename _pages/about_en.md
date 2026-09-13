@@ -11,7 +11,7 @@ author_profile: true
 
 **Welcome to Yuanjun Li's homepage!**
 
-I am Yuanjun Li, a master's student in Computer Science and Technology at the School of Artificial Intelligence, Shandong University. My advisor is [Prof. Zhiwei Xu](https://xuleek.tech/). My research interests include multi-agent reinforcement learning, autonomous control and intelligent decision-making, and LLM-enhanced reinforcement learning. I focus on efficient decision-making, credit assignment, and exploration in complex cooperative scenarios, and I also work on research platforms and multi-agent collaboration systems.
+I am Yuanjun Li, a master's student in Computer Science and Technology at the School of Artificial Intelligence, Shandong University. My advisor is [Prof. Zhiwei Xu](https://xuleek.tech/). My research interests include multi-agent reinforcement learning, Reinforcement Learning for LLM Post-Training, autonomous control and intelligent decision-making, and LLM-enhanced reinforcement learning. I focus on efficient decision-making, credit assignment, and exploration in complex cooperative scenarios, and I also work on research platforms and multi-agent collaboration systems.
 
 <span class='anchor' id='education'></span>
 
@@ -27,7 +27,7 @@ I am Yuanjun Li, a master's student in Computer Science and Technology at the Sc
 ### Publications
 - **ASPECT: Agent-Specific Parameter-Efficient Core Tuning for Multi-Agent LLM Workflows**<br>
   *2027 International Conference on Learning Representations (**ICLR**, CCF-A CORE A\*), under review*, First Author, 2026.09<br>
-  **Abstract:** To address role dominance and same-role gradient amplification in multi-agent reinforcement learning with large language models, this work proposes ASPECT. It constructs shared, frozen low-rank LoRA bases through task calibration and singular value decomposition, and assigns an independent core matrix to each agent to isolate gradient updates in a parameter-efficient manner. Experiments across models and workflows on mathematics and coding tasks show that ASPECT achieves higher task accuracy with less than 10% of the trainable parameters required by conventional LoRA allocation.
+  **Abstract:** To address role dominance and same-role gradient amplification during reinforcement learning post-training of multi-agent LLM systems, this work proposes ASPECT. It constructs shared, frozen low-rank LoRA bases through task calibration and singular value decomposition, and assigns an independent core matrix to each agent to isolate gradient updates in a parameter-efficient manner. Experiments across models and workflows on mathematics and coding tasks show that ASPECT achieves higher task accuracy with less than 10% of the trainable parameters required by conventional LoRA allocation.
 
 - **DUPAR: Dual-Path Conversational Retrieval via Speech Retriever with Cross-Turn Evidence Caching**<br>
   *2027 International Conference on Acoustics, Speech, and Signal Processing (**ICASSP**, CCF-B CORE B), under review*, First Author, 2026.09<br>
