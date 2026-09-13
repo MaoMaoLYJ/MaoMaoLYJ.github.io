@@ -48,7 +48,7 @@ redirect_from:
 - **QSIM: Mitigating Overestimation in Multi-Agent Reinforcement Learning via Action Similarity Weighted Q-Learning.**<br>
   *2026 International Conference on Automated Planning and Scheduling (**ICAPS**, CCF-B CORE A\*)*, 第一作者, 2025.12<br>
   **摘要：** 针对多智能体强化学习中的 Q 值高估问题，本文提出 QSIM 框架。该框架构建“近贪婪联合动作空间”，并引入动作相似度度量，通过相似度加权聚合重构 TD Target，以替代传统贝尔曼最优方程中的 max 算子，从而抑制高估误差。SMAC、MPE 等基准实验表明，QSIM 具备较强通用性，可无缝结合多种值分解算法，在有效缓解 Q 值高估的同时显著提升算法收敛速度与性能。<br>
-  [论文链接](https://arxiv.org/abs/2602.22786)
+  [论文链接](https://doi.org/10.1609/icaps.v36i1.42882) | [Arxiv链接](https://arxiv.org/abs/2602.22786)
 
 - **LSTM-GAT networks based on ResNet structure for prediction of complex multivariable systems.**<br>
   *IEEE 36th Chinese Control and Decision Conference (**CCDC**)*, 2024.03<br>

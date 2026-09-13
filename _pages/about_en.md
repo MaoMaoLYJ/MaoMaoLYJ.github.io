@@ -45,7 +45,7 @@ I am Yuanjun Li, a master's student in Computer Science and Technology at the Sc
 - **QSIM: Mitigating Overestimation in Multi-Agent Reinforcement Learning via Action Similarity Weighted Q-Learning.**<br>
   *2026 International Conference on Automated Planning and Scheduling (**ICAPS**, CCF-B CORE A\*)*, First Author, 2025.12<br>
   **Abstract:** To address Q-value overestimation in multi-agent reinforcement learning, this work proposes QSIM. It constructs a near-greedy joint action space and introduces an action-similarity metric to rebuild the TD target through similarity-weighted aggregation, replacing the max operator in the conventional Bellman optimality equation. Experiments on SMAC, MPE, and other benchmarks show that QSIM is broadly compatible with value decomposition methods, effectively mitigates overestimation, and improves convergence speed and performance.<br>
-  [Paper](https://arxiv.org/abs/2602.22786)
+  [Paper](https://doi.org/10.1609/icaps.v36i1.42882) | [Arxiv](https://arxiv.org/abs/2602.22786)
 
 - **LSTM-GAT networks based on ResNet structure for prediction of complex multivariable systems.**<br>
   *IEEE 36th Chinese Control and Decision Conference (**CCDC**)*, 2024.03<br>
