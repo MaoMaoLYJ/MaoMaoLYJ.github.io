@@ -2,6 +2,12 @@
   {% assign author = site.data.authors[page.author] %}{% else %}{% assign author = site.author %}
 {% endif %}
 
+{% if page.lang == 'en' %}
+  {% assign wechat_label = 'Wechat' %}
+{% else %}
+  {% assign wechat_label = '微信' %}
+{% endif %}
+
 <div itemscope itemtype="http://schema.org/Person" class="profile_box">
 
   <div class="author__avatar-wrapper">
@@ -71,7 +77,7 @@
       {% endif %}
       <li>
         <details class="author__contact" name="author-contact">
-          <summary><i class="fab fa-fw fa-weixin" aria-hidden="true"></i> 微信 / WeChat</summary>
+          <summary><i class="fab fa-fw fa-weixin" aria-hidden="true"></i> {{ wechat_label }}</summary>
           <div class="author__contact-panel">
             <img class="author__wechat-qr" src="{{ '/images/微信个人二维码.png' | relative_url }}" alt="{% if page.lang == 'en' %}WeChat QR code{% else %}微信个人二维码{% endif %}">
           </div>
@@ -176,7 +182,7 @@
         <a href="https://github.com/{{ author.github }}"><i class="fab fa-fw fa-github" aria-hidden="true"></i></a>
       {% endif %}
       <details class="author__contact" name="author-contact">
-        <summary aria-label="微信 / WeChat" title="微信 / WeChat"><i class="fab fa-fw fa-weixin" aria-hidden="true"></i></summary>
+        <summary aria-label="{{ wechat_label }}" title="{{ wechat_label }}"><i class="fab fa-fw fa-weixin" aria-hidden="true"></i></summary>
         <div class="author__contact-panel">
           <img class="author__wechat-qr" src="{{ '/images/微信个人二维码.png' | relative_url }}" alt="{% if page.lang == 'en' %}WeChat QR code{% else %}微信个人二维码{% endif %}">
         </div>

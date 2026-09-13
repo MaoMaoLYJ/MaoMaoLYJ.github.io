@@ -22,9 +22,17 @@ I am Yuanjun Li, a master's student in Computer Science and Technology at the Sc
 
 <span class='anchor' id='publications'></span>
 
-# 📝 Publications and Patents
+# 📝 Research Outputs
 
 ### Publications
+- **ASPECT: Agent-Specific Parameter-Efficient Core Tuning for Multi-Agent LLM Workflows**<br>
+  *2027 International Conference on Learning Representations (ICLR, CCF-A CORE A\*), under review*, First Author, 2026.09<br>
+  **Abstract:** To address role dominance and same-role gradient amplification in multi-agent reinforcement learning with large language models, this work proposes ASPECT. It constructs shared, frozen low-rank LoRA bases through task calibration and singular value decomposition, and assigns an independent core matrix to each agent to isolate gradient updates in a parameter-efficient manner. Experiments across models and workflows on mathematics and coding tasks show that ASPECT achieves higher task accuracy with less than 10% of the trainable parameters required by conventional LoRA allocation.
+
+- **DUPAR: Dual-Path Conversational Retrieval via Speech Retriever with Cross-Turn Evidence Caching**<br>
+  *2027 International Conference on Acoustics, Speech, and Signal Processing (ICASSP, CCF-B CORE B), under review*, First Author, 2026.09<br>
+  **Abstract:** To address ASR error propagation and latency in conventional speech retrieval, this work proposes DUPAR, a dual-path conversational retrieval framework. An audio encoder aligned with text embeddings directly retrieves evidence from a cross-turn cache, with full-corpus retrieval combining audio and transcribed text as a fallback. The cache is updated through graph-based expansion to neighboring nodes of the previous turn's retrieval results. Experiments show that the audio encoder achieves retrieval accuracy close to text-based retrieval, provides approximately 3.75 times query-side speedup over an ASR-cascaded retrieval pipeline, and is more robust to synthetic noise and variations in speaking style.
+
 - **From Trajectories to Skills: Temporal Skill Reuse for Efficient Exploration in Cooperative MARL**<br>
   *2027 Association for the Advancement of Artificial Intelligence (AAAI, CCF-A CORE A\*), under review*, Co-first Author (second-listed), 2026.06<br>
   **Abstract:** To improve inefficient exploration and long-horizon decision-making in reinforcement learning, this work proposes Temporal Skill Reuse. The method mines high-value temporal segments from historical trajectories as macro-action skills and reuses them during training through state matching, guiding policies toward high-reward behavior patterns. Experiments on multi-agent SMAC and single-agent Atari environments show improved exploration efficiency, faster convergence, and stronger performance.

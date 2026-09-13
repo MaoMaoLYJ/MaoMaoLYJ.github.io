@@ -6,7 +6,7 @@ main:
   - title: "学历"
     url: "/#education"
 
-  - title: "论文专利"
+  - title: "科研成果"
     url: "/#publications"
 
   - title: "项目经历"
@@ -25,7 +25,7 @@ main_en:
   - title: "Education"
     url: "/en/#education"
 
-  - title: "Publications"
+  - title: "Research Outputs"
     url: "/en/#publications"
 
   - title: "Projects"
