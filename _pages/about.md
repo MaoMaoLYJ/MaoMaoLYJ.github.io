@@ -34,7 +34,8 @@ redirect_from:
 
 - **DUPAR: Dual-Path Conversational Retrieval via Speech Retriever with Cross-Turn Evidence Caching**<br>
   *2027 International Conference on Acoustics, Speech, and Signal Processing (**ICASSP**, CCF-B CORE B) 在投*, 第一作者, 2026.09<br>
-  **摘要：** 针对传统语音检索中的 ASR 识别错误传播与时延问题，本文提出双路径对话检索框架 DUPAR。该框架通过与文本嵌入对齐的音频编码器直接检索跨轮证据缓存，以音频与转录文本融合的全库检索作为回退，并使用上轮检索结果的邻节点图扩展更新缓存。实验表明，音频编码器可达到接近文本检索的精度，相较 ASR 级联检索实现约 3.75 倍的查询侧加速，并对合成噪声与说话风格变化具有更强的鲁棒性。
+  **摘要：** 针对传统语音检索中的 ASR 识别错误传播与时延问题，本文提出双路径对话检索框架 DUPAR。该框架通过与文本嵌入对齐的音频编码器直接检索跨轮证据缓存，以音频与转录文本融合的全库检索作为回退，并使用上轮检索结果的邻节点图扩展更新缓存。实验表明，音频编码器可达到接近文本检索的精度，相较 ASR 级联检索实现约 3.75 倍的查询侧加速，并对合成噪声与说话风格变化具有更强的鲁棒性。<br>
+  [论文链接](https://arxiv.org/abs/2609.18042)
 
 - **From Trajectories to Skills: Temporal Skill Reuse for Efficient Exploration in Cooperative MARL**<br>
   *2027 Association for the Advancement of Artificial Intelligence (**AAAI**, CCF-A CORE A\*) 在投*, 共同一作（第二）, 2026.06<br>
@@ -80,6 +81,7 @@ redirect_from:
 <span class='anchor' id='awards'></span>
 
 # 🏅 竞赛奖项
+- *2026.10* 山东大学学业一等奖学金
 - *2026.04* 腾讯开悟智能体决策算法竞赛 国家三等奖
 - *2025.09* 山东大学新生入学一等奖学金
 - *2025.06* 中国矿业大学优秀毕业生
@@ -95,5 +97,5 @@ redirect_from:
 <span class='anchor' id='student-service'></span>
 
 # 💻 学生工作
+- *2022.09 - 2025.06*, 班级学习委员，组织考试前的辅导活动，分享笔记以及解题方法，为班级营造良好的学习氛围。
 - *2021.09 - 2022.09*, 班级班长，策划和组织班级活动，在学院官网发布新闻稿，代表班级参加各种会议。
-- *2021.09 - 2025.06*, 班级学习委员，组织考试前的辅导活动，分享笔记以及解题方法，为班级营造良好的学习氛围。

@@ -31,7 +31,8 @@ I am Yuanjun Li, a master's student in Computer Science and Technology at the Sc
 
 - **DUPAR: Dual-Path Conversational Retrieval via Speech Retriever with Cross-Turn Evidence Caching**<br>
   *2027 International Conference on Acoustics, Speech, and Signal Processing (**ICASSP**, CCF-B CORE B), under review*, First Author, 2026.09<br>
-  **Abstract:** To address ASR error propagation and latency in conventional speech retrieval, this work proposes DUPAR, a dual-path conversational retrieval framework. An audio encoder aligned with text embeddings directly retrieves evidence from a cross-turn cache, with full-corpus retrieval combining audio and transcribed text as a fallback. The cache is updated through graph-based expansion to neighboring nodes of the previous turn's retrieval results. Experiments show that the audio encoder achieves retrieval accuracy close to text-based retrieval, provides approximately 3.75 times query-side speedup over an ASR-cascaded retrieval pipeline, and is more robust to synthetic noise and variations in speaking style.
+  **Abstract:** To address ASR error propagation and latency in conventional speech retrieval, this work proposes DUPAR, a dual-path conversational retrieval framework. An audio encoder aligned with text embeddings directly retrieves evidence from a cross-turn cache, with full-corpus retrieval combining audio and transcribed text as a fallback. The cache is updated through graph-based expansion to neighboring nodes of the previous turn's retrieval results. Experiments show that the audio encoder achieves retrieval accuracy close to text-based retrieval, provides approximately 3.75 times query-side speedup over an ASR-cascaded retrieval pipeline, and is more robust to synthetic noise and variations in speaking style.<br>
+  [Paper](https://arxiv.org/abs/2609.18042)
 
 - **From Trajectories to Skills: Temporal Skill Reuse for Efficient Exploration in Cooperative MARL**<br>
   *2027 Association for the Advancement of Artificial Intelligence (**AAAI**, CCF-A CORE A\*), under review*, Co-first Author (second-listed), 2026.06<br>
@@ -77,6 +78,7 @@ I am Yuanjun Li, a master's student in Computer Science and Technology at the Sc
 <span class='anchor' id='awards'></span>
 
 # 🏅 Awards
+- *2026.10* First-Class Academic Scholarship, Shandong University
 - *2026.04* National Third Prize, Tencent Kaiwu Agent Decision Algorithm Competition
 - *2025.09* First Prize Freshman Scholarship, Shandong University
 - *2025.06* Outstanding Graduate, China University of Mining and Technology
@@ -92,5 +94,5 @@ I am Yuanjun Li, a master's student in Computer Science and Technology at the Sc
 <span class='anchor' id='student-service'></span>
 
 # 💻 Student Service
+- *2022.09 - 2025.06*, Class study committee member: organized pre-exam tutoring, shared notes and problem-solving methods, and supported a strong learning atmosphere.
 - *2021.09 - 2022.09*, Class monitor: planned and organized class activities, published news articles on the college website, and represented the class in meetings.
-- *2021.09 - 2025.06*, Class study committee member: organized pre-exam tutoring, shared notes and problem-solving methods, and supported a strong learning atmosphere.
